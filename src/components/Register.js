@@ -31,7 +31,7 @@ function Register({ emailChange, passwordChange, setNavigate }) {
             value={newPassword} onChange={(e) => setNewPassword(e.target.value)} /><br />
           <input id='register-submit' type='submit' value='Submit' />
         </form>
-      
+     
 
       <br />
       <div>
