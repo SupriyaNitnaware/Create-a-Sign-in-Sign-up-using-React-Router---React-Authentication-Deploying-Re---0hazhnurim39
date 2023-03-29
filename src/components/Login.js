@@ -32,7 +32,6 @@ function Login({ email, password, setLoggedIn, setNavigate }) {
             Don't have an account ?
             <button id='login-to-register' onClick={() => setNavigate(false)}><Link to="/Register">Register here ..</Link></button>
 
-
         </div>
     )
 }
